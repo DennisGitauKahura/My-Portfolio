@@ -1,0 +1,97 @@
+/* #about {
+  background-image: url('./img/become-web-developer.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+
+.editclass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* background image for the slide  */
+.carousel-item {
+  background-image: url('./img/become-web-developer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* end of style for the background image for the slide */
+
+/* centering this class */
+#home p {
+  text-align: center;
+}
+
+/* end of centering this class */
+
+/* ensuring section fill the page  */
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  scroll-snap-type: y mandatory;
+}
+
+
+/* end of ensuring that section fills the page */
+
+/*Styling the about me section   */
+
+#about {
+  /* background-image: url('./img/best-coding-practices.png'); */
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+#projects {
+  /* background-image: url('./img/best-coding-practices.png'); */
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+/*  */
+/* css for scrolign section */
+.scrolling-element {
+  height: 300px; /* Set a fixed height or max-height for the scrolling element */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* end of css for scroling section */
+
+
+
+
+/* end of styling about me section */
